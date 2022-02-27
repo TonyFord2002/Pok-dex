@@ -1,16 +1,32 @@
 body{
     background-color: red;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 1fr;
 }
-h2{
-    color:white
+.header{
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
-#display{
+
+.display{
     border: solid rgb(180, 180, 180) 20px;
     background-color: black;
     width: 500px;
-    height: 565px;
-    margin-top: 20px;
+    height: 550px;
+    margin-top: -400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.pictures{
+    height: 600px;
+    width: 500px;
+
 }
 #pokemon{
     width: 250px;
@@ -58,6 +74,19 @@ h3{
     height: 200px;
     width: 200px;
 }
-#mewtwo{
-    margin-left: 700px;
+#charizard{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+#eevee{
+    height: 300px;
+    width: 300px;
+    margin-left: -100px;
+}
+
+#pikachu{
+    height: 300px;
+    width: 300px;
+    margin-left: -50px;
 }
