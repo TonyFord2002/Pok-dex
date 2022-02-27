@@ -1,0 +1,63 @@
+body{
+    background-color: red;
+    display: grid;
+}
+h2{
+    color:white
+}
+#display{
+    border: solid rgb(180, 180, 180) 20px;
+    background-color: black;
+    width: 500px;
+    height: 565px;
+    margin-top: 20px;
+}
+#pokemon{
+    width: 250px;
+}
+#btn{
+    background-color: chartreuse;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 5px;
+
+}
+h2{
+    color: white
+}
+h3{
+    color: white
+}
+#pokeName{
+    margin: 25px;
+    margin-top: 10px;
+}
+#pokeType{
+    margin: 25px
+}
+#pokeNum{
+    margin: 25px
+}
+#pokeHeight{
+    margin: 25px
+}
+#pokeWeight{
+    margin: 25px
+}
+#pokeAbility1{
+    margin: 25px
+}
+#pokeAbility2{
+    margin: 25px
+}
+#frontPokeImg{
+    height: 200px;
+    width: 200px;
+}
+#backPokeImg{
+    height: 200px;
+    width: 200px;
+}
+#mewtwo{
+    margin-left: 700px;
+}
