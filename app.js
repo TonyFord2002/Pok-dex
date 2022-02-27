@@ -72,4 +72,4 @@ fetch('https://pokeapi.co/api/v2/pokemon/'+ pokemon.value)
 }
 
 let btn = document.getElementById("btn")
-btn.addEventListener("click", getPokemon)
+btn.addEventListener("click touchstart", getPokemon)
