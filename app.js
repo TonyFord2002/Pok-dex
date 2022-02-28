@@ -63,7 +63,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/'+ pokemon.value)
 
     pokeName.textContent=("Name: " + data.name)
     pokeNum.textContent="ID number: " + data.id
-    pokeWeight.textContent="Weight: " + data.weight + " lbs"
+    pokeWeight.textContent="Weight: " + data.weight/10 + " kg"
     pokeHeight.textContent="Height: " + data.height*10 + " cm"
     frontPokeImg.setAttribute('src', `${data.sprites.front_default}`)
     backPokeImg.setAttribute('src', `${data.sprites.back_default}`)
