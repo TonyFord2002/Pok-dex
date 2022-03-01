@@ -38,10 +38,10 @@ body{
     margin-top: 5px;
 
 }
-h2{
+h3{
     color: white
 }
-h3{
+h4{
     color: white
 }
 #pokeName{
@@ -52,6 +52,12 @@ h3{
     margin: 25px
 }
 #pokeNum{
+    margin: 25px
+}
+#pokeHP{
+    margin: 25px
+}
+#pokeAttack{
     margin: 25px
 }
 #pokeHeight{
