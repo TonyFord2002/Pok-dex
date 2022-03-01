@@ -44,6 +44,8 @@ var pokeAbility2 = document.querySelector('#pokeAbility2')
 var frontPokeImg = document.querySelector('#frontPokeImg')
 var backPokeImg = document.querySelector('#backPokeImg')
 var pokemon = document.querySelector('#pokemon')
+var pokeHP = document.querySelector('#pokeHP')
+var pokeAttack = document.querySelector('#pokeAttack')
 
 function getPokemon(){
 //get data from url/api
@@ -63,6 +65,8 @@ fetch('https://pokeapi.co/api/v2/pokemon/'+ pokemon.value)
 
     pokeName.textContent=("Name: " + data.name)
     pokeNum.textContent="ID number: " + data.id
+    pokeHP.textContent= "HP: " + data.stats[0].base_stat
+    pokeAttack.textContent= "Attack: " + data.stats[1].base_stat
     pokeWeight.textContent="Weight: " + data.weight/10 + " kg"
     pokeHeight.textContent="Height: " + data.height*10 + " cm"
     frontPokeImg.setAttribute('src', `${data.sprites.front_default}`)
